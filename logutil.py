@@ -4,7 +4,6 @@ class Logger:
     """Logging utility."""
 
     def __init__(self, log_name: str):
-        print(f"Opening log file {log_name}")
         self.f = open(log_name, "a")
     
     def log(self, category: str, text: str):
@@ -13,7 +12,6 @@ class Logger:
         self.f.write(s)
     
     def __del__(self):
-        print(f"Closing log file {self.f.name}")
         self.f.close()
 
 
