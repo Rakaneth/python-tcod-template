@@ -1,4 +1,0 @@
-SCR_W = 80
-SCR_H = 40
-MAP_W = SCR_W
-MAP_H = SCR_H - 10
